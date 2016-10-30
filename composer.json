@@ -1,0 +1,9 @@
+{
+  "name": "appkr/thrift-example-idl",
+  "autoload": {
+    "psr-4": {
+      "Appkr\\": "dist-php/Appkr"
+    }
+  }
+}
+
