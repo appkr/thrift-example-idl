@@ -1,21 +1,22 @@
 namespace php Appkr.Thrift.Errors
 namespace java kr.appkr.thrift.errors
+namespace js Appkr.Thrift.Errors
 
 /**
  * 에러 코드
  */
 enum ErrorCode {
-	/** 일반적인 클라이언트 에러 */
-	BAD_REQUEST = 400,
+    /** 일반적인 클라이언트 에러 */
+    BAD_REQUEST = 400,
 
-	/** 요청한 리소스가 서버에 없음 */
-  	NOT_FOUND = 404,
+    /** 요청한 리소스가 서버에 없음 */
+    NOT_FOUND = 404,
 
-  	/** 클라이언트가 제시한 파라미터 값/형식이 기대 요건을 충족하지 않음 */
-  	UNPROCESSIBLE_ENTITY = 422,
+    /** 클라이언트가 제시한 파라미터 값/형식이 기대 요건을 충족하지 않음 */
+    UNPROCESSIBLE_ENTITY = 422,
 
-  	/** General server error */
-  	INTERNAL_SERVER_ERROR = 500,
+    /** General server error */
+    INTERNAL_SERVER_ERROR = 500,
 }
 
 /**

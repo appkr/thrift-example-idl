@@ -1,0 +1,8 @@
+{
+  "name": "thrift-example-idl",
+  "version": "1.0.0",
+  "description": "Apache Thrift IDL의 사용법 데모를 위한 프로젝트",
+  "repository": "git@github.com:appkr/thrift-example-idl.git",
+  "author": "appkr <juwonkim@me.com>",
+  "license": "MIT"
+}
