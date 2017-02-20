@@ -2,6 +2,7 @@ include "Errors.thrift"
 
 namespace php Appkr.Thrift.Post
 namespace java kr.appkr.thrift.post
+namespace js Appkr.Thrift.Post
 
 /**
  * Post 엔티티
@@ -72,8 +73,7 @@ service PostService {
      * 새 포스트를 만듭니다.
      */
     Post store(
-        1: string title,
-        2: string content
+        1: Post post
     ) throws (
         1: Errors.UserException userException
         2: Errors.SystemException systemException
